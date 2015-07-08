@@ -113,5 +113,12 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+" disable java
+let g:loaded_syntastic_java_javac_checker = 1
+let g:loaded_syntastic_java_checkstyle_checker = 1
+" disable scala
+let g:loaded_syntastic_scala_fsc_checker = 1
+let g:loaded_syntastic_scala_scalac_checker = 1
+let g:loaded_syntastic_scala_scalastyle_checker = 1
 
 colorscheme railscasts
